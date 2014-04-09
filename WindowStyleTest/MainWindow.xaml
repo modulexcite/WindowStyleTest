@@ -1,0 +1,27 @@
+﻿<Window x:Class="WindowStyleTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WindowStyle Test"
+        WindowStartupLocation="CenterOwner"
+        WindowStyle="None"
+        Height="350"
+        Width="525"
+        Loaded="MainWindow_OnLoaded">
+  <Grid>
+    
+    <Button HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20" Click="ButtonBase_OnClick">Close Me</Button>
+
+    <StackPanel Orientation="Vertical"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+      <TextBlock Margin="10" FontSize="28">WindowStyle="None" TEST</TextBlock>
+      <TextBlock Margin="10">- Move the window to other monitor with CTRL+WIN+LEFT or CTRL+WIN+RIGHT</TextBlock>
+      <TextBlock Margin="10">- Now the window should be moved to the other monitor</TextBlock>
+      <TextBlock Margin="10">- Try to move the window back to the first monitor with with CTRL+WIN+LEFT or CTRL+WIN+RIGHT</TextBlock>
+      <TextBlock Margin="10">- So you wondered why nothing happens?</TextBlock>
+      <TextBlock Margin="10">- Me too :-D</TextBlock>
+      <TextBlock Margin="10">- Test system: Windows 7 64 bit .NET 4.5.1</TextBlock>
+    </StackPanel>
+
+  </Grid>
+</Window>
