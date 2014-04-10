@@ -15,10 +15,10 @@
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center">
       <TextBlock Margin="10" FontSize="28">WindowStyle="None" TEST</TextBlock>
-      <TextBlock Margin="10">- Move the window to other monitor with CTRL+WIN+LEFT or CTRL+WIN+RIGHT</TextBlock>
-      <TextBlock Margin="10">- Now the window should be moved to the other monitor</TextBlock>
-      <TextBlock Margin="10">- Try to move the window back to the first monitor with with CTRL+WIN+LEFT or CTRL+WIN+RIGHT</TextBlock>
-      <TextBlock Margin="10">- So you wondered why nothing happens?</TextBlock>
+      <TextBlock Margin="10">- Move the maximized window to other monitor with SHIFT+WIN+LEFT or SHIFT+WIN+RIGHT</TextBlock>
+      <TextBlock Margin="10">- Now the window should be moved to the other monitor and still maximized</TextBlock>
+      <TextBlock Margin="10">- Try to move the window back to the previous/first monitor with SHIFT+WIN+LEFT or SHIFT+WIN+RIGHT</TextBlock>
+      <TextBlock Margin="10">- So you wondered why nothing happens? The window doesn't move again!</TextBlock>
       <TextBlock Margin="10">- Me too :-D</TextBlock>
       <TextBlock Margin="10">- Test system: Windows 7 64 bit .NET 4.5.1</TextBlock>
     </StackPanel>
